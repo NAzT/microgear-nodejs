@@ -474,7 +474,7 @@ function create(param) {
             switch (state) {
                 case 0 :    // No token issue
                             console.log('Error: request token is not issued, please check your key and secret.');
-                            throw new Error('Error: request token is not issued, please check your key and secret.');
+                            // throw new Error('Error: request token is not issued, please check your key and secret.');
                             return;
                 case 1 :    // Request token issued or prepare to request request token again
                             setTimeout(function() {
